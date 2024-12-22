@@ -19,7 +19,7 @@
         </UploadImg>
       </el-form-item>
       <el-form-item label="用户照片" prop="photo">
-        <UploadImgs
+        <!-- <UploadImgs
           v-model:file-list="drawerProps.row!.photo as UploadUserFile[]"
           height="140px"
           width="140px"
@@ -30,7 +30,20 @@
             <span>请上传照片</span>
           </template>
           <template #tip> 照片大小不能超过 5M </template>
-        </UploadImgs>
+        </UploadImgs> -->
+        <UploadImg
+          v-model:image-url="drawerProps.row!.avatar as string"
+          width="135px"
+          height="135px"
+          border-radius="50%"
+          :file-size="3"
+        >
+          <template #empty>
+            <el-icon><Avatar /></el-icon>
+            <span>请上传头像</span>
+          </template>
+          <template #tip> 头像大小不能超过 3M </template>
+        </UploadImg>
       </el-form-item>
       <el-form-item label="用户姓名" prop="username">
         <el-input v-model="drawerProps.row!.username" placeholder="请填写用户姓名" clearable></el-input>
@@ -60,10 +73,10 @@
 <script setup lang="ts" name="UserDrawer">
 import { ref, reactive } from "vue";
 import { genderType } from "@/utils/dict";
-import { ElMessage, FormInstance, UploadUserFile } from "element-plus";
+import { ElMessage, FormInstance /* , UploadUserFile */ } from "element-plus";
 import { User } from "@/api/interface";
 import UploadImg from "@/components/Upload/Img.vue";
-import UploadImgs from "@/components/Upload/Imgs.vue";
+// import UploadImgs from "@/components/Upload/Imgs.vue";
 // import dreamImg from "@/assets/images/money_dream.webp";
 
 const rules = reactive({

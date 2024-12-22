@@ -79,14 +79,25 @@ export namespace User {
     genderLabel: string;
     genderValue: number;
   }
+  export interface DeptStatus extends ResStatus {
+    tagType: string;
+    userStatus: number;
+  }
   export interface ResDepartment {
     id: string;
     name: string;
+    pid: number;
+    status: number;
+    createTime: string;
+    updateTime: string;
     children?: ResDepartment[];
   }
   export interface ResRole {
     id: string;
     name: string;
+    status?: number;
+    createTime?: string;
+    updateTime?: string;
     children?: ResDepartment[];
   }
 }

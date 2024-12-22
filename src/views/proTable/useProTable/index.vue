@@ -101,6 +101,7 @@ const getTableList = (params: any) => {
   let newParams = JSON.parse(JSON.stringify(params));
   newParams.createTime && (newParams.startTime = newParams.createTime[0]);
   newParams.createTime && (newParams.endTime = newParams.createTime[1]);
+  console.log(params);
   delete newParams.createTime;
   return getUserList(newParams);
 };

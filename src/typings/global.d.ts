@@ -1,13 +1,5 @@
 /* Menu */
 declare namespace Menu {
-  interface MenuOptions {
-    path: string;
-    name: string;
-    component?: string | (() => Promise<unknown>);
-    redirect?: string;
-    meta: MetaProps;
-    children?: MenuOptions[];
-  }
   interface MetaProps {
     icon: string;
     title: string;
@@ -17,6 +9,19 @@ declare namespace Menu {
     isFull: boolean;
     isAffix: boolean;
     isKeepAlive: boolean;
+  }
+  interface MenuOptions {
+    id: number | string;
+    path: string;
+    name: string;
+    component: string | (() => Promise<unknown>);
+    redirect?: string;
+    meta: MetaProps;
+    children?: MenuOptions[];
+  }
+  interface MenuBody extends MenuOptions {
+    type: number;
+    parentId: number[] | string[];
   }
 }
 

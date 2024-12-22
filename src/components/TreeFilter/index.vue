@@ -150,13 +150,18 @@ const handleNodeClick = (data: { [key: string]: any }) => {
 
 // 多选
 const handleCheckChange = () => {
+  // 返回的是key
   emit("change", treeRef.value?.getCheckedKeys());
 };
 
+// 返回的是node
+const getCheckedNodes = () => {
+  return treeRef.value!.getCheckedNodes(false, false);
+};
 // 暴露给父组件使用
-defineExpose({ treeData, treeAllData, treeRef });
+defineExpose({ treeData, treeAllData, treeRef, getCheckedNodes });
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
+@import "./index";
 </style>

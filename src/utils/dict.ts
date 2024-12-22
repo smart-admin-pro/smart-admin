@@ -15,3 +15,19 @@ export const userStatus = [
   { label: "启用", value: 1, tagType: "success" },
   { label: "禁用", value: 0, tagType: "danger" }
 ];
+
+export const taskStatus = [
+  { label: "暂停", value: 2, tagType: "warning" },
+  { label: "运行中", value: 1, tagType: "success" },
+  { label: "终止", value: 0, tagType: "danger" }
+];
+
+export const taskLogStatus = [
+  { label: "正常", value: 1, tagType: "success" },
+  { label: "异常", value: 0, tagType: "danger" }
+];
+
+export const menuType = [
+  { label: "菜单", value: 0 },
+  { label: "按钮", value: 1 }
+];

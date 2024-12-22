@@ -5,18 +5,18 @@
   "type": "module",
   "description": "smart-admin open source management system",
   "author": {
-    "name": "Geeker",
-    "email": "848130454@qq.com",
-    "url": "https://github.com/HalseySpicy"
+    "name": "Smart",
+    "email": "305043598@qq.com",
+    "url": "https://github.com/admin-smart"
   },
   "license": "MIT",
-  "homepage": "https://github.com/HalseySpicy/Geeker-Admin",
+  "homepage": "https://github.com/admin-smart/smart-admin",
   "repository": {
     "type": "git",
-    "url": "git@github.com:HalseySpicy/Geeker-Admin.git"
+    "url": "git@github.com:admin-smart/smart.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/HalseySpicy/Geeker-Admin/issues"
+    "url": "https://github.com/admin-smart/smart-admin/issues"
   },
   "scripts": {
     "dev": "vite",
@@ -44,9 +44,10 @@
     "driver.js": "^1.3.1",
     "echarts": "^5.5.1",
     "echarts-liquidfill": "^3.1.0",
-    "element-plus": "^2.7.6",
+    "element-plus": "^2.8.4",
     "md5": "^2.3.0",
     "mitt": "^3.0.1",
+    "no-vue3-cron": "^2.0.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",

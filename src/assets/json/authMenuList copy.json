@@ -7,8 +7,6 @@
       "name": "home",
       "component": "/home/index",
       "id": 1,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "HomeFilled",
         "title": "首页",
@@ -24,8 +22,6 @@
       "name": "dataScreen",
       "component": "/dataScreen/index",
       "id": 2,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Histogram",
         "title": "数据大屏",
@@ -41,8 +37,6 @@
       "name": "proTable",
       "redirect": "/proTable/useProTable",
       "id": 3,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "MessageBox",
         "title": "超级表格",
@@ -58,8 +52,6 @@
           "name": "useProTable",
           "component": "/proTable/useProTable/index",
           "id": 4,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "使用 ProTable",
@@ -75,8 +67,6 @@
               "name": "useProTableDetail",
               "component": "/proTable/useProTable/detail",
               "id": 5,
-              "type": 0,
-              "parentId": [3, 4],
               "meta": {
                 "icon": "Menu",
                 "title": "ProTable 详情",
@@ -95,8 +85,6 @@
           "name": "useTreeFilter",
           "component": "/proTable/useTreeFilter/index",
           "id": 6,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "使用 TreeFilter",
@@ -112,8 +100,6 @@
           "name": "useTreeFilterDetail",
           "component": "/proTable/useTreeFilter/detail",
           "id": 7,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "TreeFilter 详情",
@@ -130,8 +116,6 @@
           "name": "useSelectFilter",
           "component": "/proTable/useSelectFilter/index",
           "id": 8,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "使用 SelectFilter",
@@ -147,8 +131,6 @@
           "name": "treeProTable",
           "component": "/proTable/treeProTable/index",
           "id": 9,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "树形 ProTable",
@@ -164,8 +146,6 @@
           "name": "complexProTable",
           "component": "/proTable/complexProTable/index",
           "id": 10,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "复杂 ProTable",
@@ -181,8 +161,6 @@
           "name": "proTableDocument",
           "component": "/proTable/document/index",
           "id": 11,
-          "type": 0,
-          "parentId": [3],
           "meta": {
             "icon": "Menu",
             "title": "ProTable 文档",
@@ -200,8 +178,6 @@
       "name": "auth",
       "redirect": "/auth/menu",
       "id": 12,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Lock",
         "title": "权限管理",
@@ -217,8 +193,6 @@
           "name": "authMenu",
           "component": "/auth/menu/index",
           "id": 13,
-          "type": 0,
-          "parentId": [12],
           "meta": {
             "icon": "Menu",
             "title": "菜单权限",
@@ -234,8 +208,6 @@
           "name": "authButton",
           "component": "/auth/button/index",
           "id": 14,
-          "type": 0,
-          "parentId": [12],
           "meta": {
             "icon": "Menu",
             "title": "按钮权限",
@@ -253,8 +225,6 @@
       "name": "assembly",
       "redirect": "/assembly/guide",
       "id": 15,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Briefcase",
         "title": "常用组件",
@@ -270,8 +240,6 @@
           "name": "guide",
           "component": "/assembly/guide/index",
           "id": 16,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "引导页",
@@ -287,8 +255,6 @@
           "name": "tabs",
           "component": "/assembly/tabs/index",
           "id": 17,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "标签页操作",
@@ -304,8 +270,6 @@
               "name": "tabsDetail",
               "component": "/assembly/tabs/detail",
               "id": 18,
-              "type": 0,
-              "parentId": [15, 17],
               "meta": {
                 "icon": "Menu",
                 "title": "Tab 详情",
@@ -324,8 +288,6 @@
           "name": "selectIcon",
           "component": "/assembly/selectIcon/index",
           "id": 19,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "图标选择器",
@@ -341,8 +303,6 @@
           "name": "selectFilter",
           "component": "/assembly/selectFilter/index",
           "id": 20,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "分类筛选器",
@@ -358,8 +318,6 @@
           "name": "treeFilter",
           "component": "/assembly/treeFilter/index",
           "id": 21,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "树形筛选器",
@@ -375,8 +333,6 @@
           "name": "svgIcon",
           "component": "/assembly/svgIcon/index",
           "id": 22,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "SVG 图标",
@@ -392,8 +348,6 @@
           "name": "uploadFile",
           "component": "/assembly/uploadFile/index",
           "id": 23,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "文件上传",
@@ -409,8 +363,6 @@
           "name": "batchImport",
           "component": "/assembly/batchImport/index",
           "id": 24,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "批量添加数据",
@@ -426,8 +378,6 @@
           "name": "wangEditor",
           "component": "/assembly/wangEditor/index",
           "id": 25,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "富文本编辑器",
@@ -443,8 +393,6 @@
           "name": "draggable",
           "component": "/assembly/draggable/index",
           "id": 26,
-          "type": 0,
-          "parentId": [15],
           "meta": {
             "icon": "Menu",
             "title": "拖拽组件",
@@ -462,8 +410,6 @@
       "name": "dashboard",
       "redirect": "/dashboard/dataVisualize",
       "id": 27,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Odometer",
         "title": "Dashboard",
@@ -479,8 +425,6 @@
           "name": "dataVisualize",
           "component": "/dashboard/dataVisualize/index",
           "id": 28,
-          "type": 0,
-          "parentId": [27],
           "meta": {
             "icon": "Menu",
             "title": "数据可视化",
@@ -498,8 +442,6 @@
       "name": "form",
       "redirect": "/form/proForm",
       "id": 29,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Tickets",
         "title": "表单 Form",
@@ -515,8 +457,6 @@
           "name": "proForm",
           "component": "/form/proForm/index",
           "id": 30,
-          "type": 0,
-          "parentId": [29],
           "meta": {
             "icon": "Menu",
             "title": "超级 Form",
@@ -532,8 +472,6 @@
           "name": "basicForm",
           "component": "/form/basicForm/index",
           "id": 31,
-          "type": 0,
-          "parentId": [29],
           "meta": {
             "icon": "Menu",
             "title": "基础 Form",
@@ -549,8 +487,6 @@
           "name": "validateForm",
           "component": "/form/validateForm/index",
           "id": 32,
-          "type": 0,
-          "parentId": [29],
           "meta": {
             "icon": "Menu",
             "title": "校验 Form",
@@ -566,8 +502,6 @@
           "name": "dynamicForm",
           "component": "/form/dynamicForm/index",
           "id": 33,
-          "type": 0,
-          "parentId": [29],
           "meta": {
             "icon": "Menu",
             "title": "动态 Form",
@@ -585,8 +519,6 @@
       "name": "echarts",
       "redirect": "/echarts/waterChart",
       "id": 34,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "TrendCharts",
         "title": "ECharts",
@@ -602,8 +534,6 @@
           "name": "waterChart",
           "component": "/echarts/waterChart/index",
           "id": 35,
-          "type": 0,
-          "parentId": [34],
           "meta": {
             "icon": "Menu",
             "title": "水型图",
@@ -619,8 +549,6 @@
           "name": "columnChart",
           "component": "/echarts/columnChart/index",
           "id": 36,
-          "type": 0,
-          "parentId": [34],
           "meta": {
             "icon": "Menu",
             "title": "柱状图",
@@ -636,8 +564,6 @@
           "name": "lineChart",
           "component": "/echarts/lineChart/index",
           "id": 37,
-          "type": 0,
-          "parentId": [34],
           "meta": {
             "icon": "Menu",
             "title": "折线图",
@@ -653,8 +579,6 @@
           "name": "pieChart",
           "component": "/echarts/pieChart/index",
           "id": 38,
-          "type": 0,
-          "parentId": [34],
           "meta": {
             "icon": "Menu",
             "title": "饼图",
@@ -670,8 +594,6 @@
           "name": "radarChart",
           "component": "/echarts/radarChart/index",
           "id": 39,
-          "type": 0,
-          "parentId": [34],
           "meta": {
             "icon": "Menu",
             "title": "雷达图",
@@ -687,8 +609,6 @@
           "name": "nestedChart",
           "component": "/echarts/nestedChart/index",
           "id": 40,
-          "type": 0,
-          "parentId": [34],
           "meta": {
             "icon": "Menu",
             "title": "嵌套环形图",
@@ -706,8 +626,6 @@
       "name": "directives",
       "redirect": "/directives/copyDirect",
       "id": 41,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Stamp",
         "title": "自定义指令",
@@ -723,8 +641,6 @@
           "name": "copyDirect",
           "component": "/directives/copyDirect/index",
           "id": 42,
-          "type": 0,
-          "parentId": [41],
           "meta": {
             "icon": "Menu",
             "title": "复制指令",
@@ -740,8 +656,6 @@
           "name": "watermarkDirect",
           "component": "/directives/watermarkDirect/index",
           "id": 43,
-          "type": 0,
-          "parentId": [41],
           "meta": {
             "icon": "Menu",
             "title": "水印指令",
@@ -757,8 +671,6 @@
           "name": "dragDirect",
           "component": "/directives/dragDirect/index",
           "id": 44,
-          "type": 0,
-          "parentId": [41],
           "meta": {
             "icon": "Menu",
             "title": "拖拽指令",
@@ -774,8 +686,6 @@
           "name": "debounceDirect",
           "component": "/directives/debounceDirect/index",
           "id": 45,
-          "type": 0,
-          "parentId": [41],
           "meta": {
             "icon": "Menu",
             "title": "防抖指令",
@@ -791,8 +701,6 @@
           "name": "throttleDirect",
           "component": "/directives/throttleDirect/index",
           "id": 46,
-          "type": 0,
-          "parentId": [41],
           "meta": {
             "icon": "Menu",
             "title": "节流指令",
@@ -808,8 +716,6 @@
           "name": "longpressDirect",
           "component": "/directives/longpressDirect/index",
           "id": 47,
-          "type": 0,
-          "parentId": [41],
           "meta": {
             "icon": "Menu",
             "title": "长按指令",
@@ -827,8 +733,6 @@
       "name": "menu",
       "redirect": "/menu/menu1",
       "id": 48,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "List",
         "title": "菜单嵌套",
@@ -844,8 +748,6 @@
           "name": "menu1",
           "component": "/menu/menu1/index",
           "id": 49,
-          "type": 0,
-          "parentId": [48],
           "meta": {
             "icon": "Menu",
             "title": "菜单1",
@@ -861,8 +763,6 @@
           "name": "menu2",
           "redirect": "/menu/menu2/menu21",
           "id": 50,
-          "type": 0,
-          "parentId": [48],
           "meta": {
             "icon": "Menu",
             "title": "菜单2",
@@ -878,8 +778,6 @@
               "name": "menu21",
               "component": "/menu/menu2/menu21/index",
               "id": 51,
-              "type": 0,
-              "parentId": [48, 50],
               "meta": {
                 "icon": "Menu",
                 "title": "菜单2-1",
@@ -895,8 +793,6 @@
               "name": "menu22",
               "redirect": "/menu/menu2/menu22/menu221",
               "id": 52,
-              "type": 0,
-              "parentId": [48, 50],
               "meta": {
                 "icon": "Menu",
                 "title": "菜单2-2",
@@ -912,8 +808,6 @@
                   "name": "menu221",
                   "component": "/menu/menu2/menu22/menu221/index",
                   "id": 53,
-                  "type": 0,
-                  "parentId": [48, 50, 52],
                   "meta": {
                     "icon": "Menu",
                     "title": "菜单2-2-1",
@@ -929,8 +823,6 @@
                   "name": "menu222",
                   "component": "/menu/menu2/menu22/menu222/index",
                   "id": 54,
-                  "type": 0,
-                  "parentId": [48, 50, 52],
                   "meta": {
                     "icon": "Menu",
                     "title": "菜单2-2-2",
@@ -948,8 +840,6 @@
               "name": "menu23",
               "component": "/menu/menu2/menu23/index",
               "id": 55,
-              "type": 0,
-              "parentId": [48, 50],
               "meta": {
                 "icon": "Menu",
                 "title": "菜单2-3",
@@ -967,8 +857,6 @@
           "name": "menu3",
           "component": "/menu/menu3/index",
           "id": 56,
-          "type": 0,
-          "parentId": [48],
           "meta": {
             "icon": "Menu",
             "title": "菜单3",
@@ -986,8 +874,6 @@
       "name": "system",
       "redirect": "/system/userManage",
       "id": 57,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Tools",
         "title": "系统管理",
@@ -1003,8 +889,6 @@
           "name": "userManage",
           "component": "/system/userManage/index",
           "id": 58,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "用户管理",
@@ -1020,8 +904,6 @@
           "name": "roleManage",
           "component": "/system/roleManage/index",
           "id": 59,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "角色管理",
@@ -1037,8 +919,6 @@
           "name": "menuMange",
           "component": "/system/menuMange/index",
           "id": 60,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "菜单管理",
@@ -1054,8 +934,6 @@
           "name": "departmentManage",
           "component": "/system/departmentManage/index",
           "id": 61,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "部门管理",
@@ -1071,8 +949,6 @@
           "name": "dictManage",
           "component": "/system/dictManage/index",
           "id": 62,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "字典管理",
@@ -1088,8 +964,6 @@
               "name": "dictDataDetail",
               "component": "/system/dictManage/detail",
               "id": 622,
-              "type": 0,
-              "parentId": [57, 62],
               "meta": {
                 "icon": "Menu",
                 "title": "字典数据详情",
@@ -1107,8 +981,6 @@
           "name": "timingTask",
           "component": "/system/timingTask/index",
           "id": 63,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "定时任务",
@@ -1124,8 +996,6 @@
           "name": "taskLogs",
           "component": "/system/timingTask/taskLogs",
           "id": 63,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "任务日志",
@@ -1141,8 +1011,6 @@
           "name": "systemLog",
           "component": "/system/systemLog/index",
           "id": 64,
-          "type": 0,
-          "parentId": [57],
           "meta": {
             "icon": "Menu",
             "title": "系统日志",
@@ -1160,8 +1028,6 @@
       "name": "link",
       "redirect": "/link/bing",
       "id": 65,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "Paperclip",
         "title": "外部链接",
@@ -1177,8 +1043,6 @@
           "name": "bing",
           "component": "/link/bing/index",
           "id": 66,
-          "type": 0,
-          "parentId": [65],
           "meta": {
             "icon": "Menu",
             "title": "Bing 内嵌",
@@ -1194,8 +1058,6 @@
           "name": "gitee",
           "component": "/link/gitee/index",
           "id": 67,
-          "type": 0,
-          "parentId": [65],
           "meta": {
             "icon": "Menu",
             "title": "Gitee 仓库",
@@ -1211,8 +1073,6 @@
           "name": "github",
           "component": "/link/github/index",
           "id": 68,
-          "type": 0,
-          "parentId": [65],
           "meta": {
             "icon": "Menu",
             "title": "GitHub 仓库",
@@ -1228,8 +1088,6 @@
           "name": "docs",
           "component": "/link/docs/index",
           "id": 69,
-          "type": 0,
-          "parentId": [65],
           "meta": {
             "icon": "Menu",
             "title": "项目文档",
@@ -1245,8 +1103,6 @@
           "name": "juejin",
           "component": "/link/juejin/index",
           "id": 70,
-          "type": 0,
-          "parentId": [65],
           "meta": {
             "icon": "Menu",
             "title": "掘金主页",
@@ -1264,8 +1120,6 @@
       "name": "about",
       "component": "/about/index",
       "id": 71,
-      "type": 0,
-      "parentId": [],
       "meta": {
         "icon": "InfoFilled",
         "title": "关于项目",

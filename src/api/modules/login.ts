@@ -1,8 +1,9 @@
 import { Login } from "@/api/interface/index";
 import { PORT1 } from "@/api/config/servicePort";
-import authMenuList from "@/assets/json/authMenuList.json";
+// import authMenuList from "@/assets/json/authMenuList.json";
 import authButtonList from "@/assets/json/authButtonList.json";
 import http from "@/api";
+// import { ResultData } from "@/api/interface";
 
 /**
  * @name 登录模块
@@ -20,7 +21,7 @@ export const loginApi = (params: Login.ReqLoginForm) => {
 export const getAuthMenuListApi = () => {
   return http.get<Menu.MenuOptions[]>(PORT1 + `/menu/list`, {}, { loading: false });
   // 如果想让菜单变为本地数据，注释上一行代码，并引入本地 authMenuList.json 数据
-  return authMenuList;
+  // return authMenuList;
 };
 
 // 获取按钮权限
